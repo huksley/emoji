@@ -1,3 +1,4 @@
-build:
-    commands:
+version: 0.2
+phases:
+    build:
       - echo Build started on `date`
