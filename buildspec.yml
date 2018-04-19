@@ -4,4 +4,4 @@ phases:
       commands:
         - echo Build started on `date`
         - ls -l
-        - aws s3 cp $SRCPATH $DSTPATH--recursive
+        - aws s3 cp $SRCPATH $DSTPATH --region $DSTREGION --recursive
